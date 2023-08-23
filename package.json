@@ -1,0 +1,24 @@
+{
+  "name": "csv-upload-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "read-excel-file": "^5.6.1"
+  }
+}
